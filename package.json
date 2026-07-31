@@ -10,11 +10,23 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@ndn/autoconfig": "^0.0.20260427",
+    "@ndn/endpoint": "^0.0.20260427",
+    "@ndn/fileserver": "^0.0.20260427",
+    "@ndn/packet": "^0.0.20260427",
+    "@ndn/quic-transport": "^0.0.20260427",
+    "@ndn/rdr": "^0.0.20260427",
+    "@ndn/segmented-object": "^0.0.20260427",
+    "@ndn/util": "^0.0.20260427",
     "@tailwindcss/vite": "^4.3.3",
+    "hirestime": "^7.0.4",
+    "p-queue": "^9.3.3",
+    "papaparse": "^5.5.4",
     "react": "^19.2.7",
     "react-dom": "^19.2.7",
     "shaka-player": "^5.2.2",
-    "tailwindcss": "^4.3.3"
+    "tailwindcss": "^4.3.3",
+    "zustand": "^5.0.14"
   },
   "devDependencies": {
     "@babel/core": "^7.29.7",
