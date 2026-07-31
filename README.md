@@ -1,18 +1,57 @@
-# React + Vite
+## 🚀 Langkah Instalasi & Pengoperasian
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Ikuti urutan langkah berikut untuk mengunduh dan menjalankan proyek di komputer lokal Anda:
 
-Currently, two official plugins are available:
+### 1. Unduh Proyek (Clone / ZIP)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+Pilih salah satu cara berikut untuk mendapatkan kode sumber proyek:
 
-## React Compiler
+- **Cara A: Menggunakan Git Clone (Direkomendasikan)**
 
-The React Compiler is enabled on this template. See [this documentation](https://react.dev/learn/react-compiler) for more information.
+  ```bash
+  git clone https://github.com/Bilsyp/ndn-memoization-video-client.git
+  ```
 
-Note: This will impact Vite dev & build performances.
+- **Cara B: Unduh ZIP**
+  1. Klik tombol **Code** di halaman GitHub proyek ini.
+  2. Pilih **Download ZIP**.
+  3. Ekstrak file ZIP tersebut ke folder di komputer Anda.
 
-## Expanding the ESLint configuration
+### 2. Pastikan Node.js Terinstal
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Aplikasi ini membutuhkan Node.js versi 24 (LTS) atau versi LTS terbaru.
+
+- Cek versi Node.js yang terpasang:
+  ```bash
+  node -v
+  ```
+- Jika belum terinstal atau versinya tidak sesuai, unduh dan instal dari [Halaman Resmi Node.js](https://nodejs.org/).
+
+### 3. Masuk ke Folder Proyek & Instal Dependensi
+
+1. Buka **Command Prompt** (atau Terminal).
+2. Arahkan direktori ke folder proyek Anda:
+   ```bash
+   cd path/ke/folder-[nama-repo]
+   ```
+3. Jalankan perintah berikut untuk menginstal semua package yang dibutuhkan:
+   ```bash
+   npm install
+   ```
+
+### 4. Jalankan Aplikasi
+
+Jalankan perintah sesuai skenario yang ingin Anda gunakan (lihat perintah yang tersedia di file package.json):
+
+- **Mode Pengembangan (Development)**
+
+  ```bash
+  npm run dev
+  ```
+
+- **Mode Pratinjau Build (Preview)**
+  ```bash
+  npm run preview
+  ```
+
+Setelah server lokal aktif, buka browser dan kunjungi alamat URL yang ditampilkan di Command Prompt (misalnya `http://localhost:5173` atau `http://localhost:3000`).
