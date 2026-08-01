@@ -24,7 +24,7 @@ const App = () => {
   }, [dark]);
 
   return (
-    <div className="min-h-screen bg-blue-400 dark:bg-slate-900 py-5">
+    <div className="min-h-screen bg-slate-900 dark:bg-slate-900 py-5">
       <ConnectionConfigPanel />
       <PlayerWrapper />
       <MetricsWidget />

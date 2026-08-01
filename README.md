@@ -32,7 +32,7 @@ Aplikasi ini membutuhkan Node.js versi 24 (LTS) atau versi LTS terbaru.
 1. Buka **Command Prompt** (atau Terminal).
 2. Arahkan direktori ke folder proyek Anda:
    ```bash
-   cd path/ke/folder-[nama-repo]
+   cd ndn-memoization-video-client
    ```
 3. Jalankan perintah berikut untuk menginstal semua package yang dibutuhkan:
    ```bash
