@@ -1,7 +1,7 @@
 import { useState } from "react";
 import ShakaPlayerComponent from "./player-instance";
 export default function PlayerWrapper() {
-  const [src, setSrc] = useState("ndn:/test/china-university/playlist.mpd");
+  const [src, setSrc] = useState("ndn:/kampus/china-university/playlist.mpd");
   const [abrAlgo, setAbrAlgo] = useState("ndn-rl");
   const [isPlaying, setIsPlaying] = useState(false);
 

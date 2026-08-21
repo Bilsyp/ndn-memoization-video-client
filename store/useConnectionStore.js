@@ -2,8 +2,8 @@ import { create } from "zustand";
 
 export const useConnectionStore = create((set) => ({
   // State Awal
-  ipBridge: "ws://192.168.1.22:5152/ws",
-  wsRouter: "ws://192.168.1.24:9696/ws",
+  ipBridge: "ws://10.10.10.5:5152/ws",
+  wsRouter: "ws://10.10.10.1:9696/ws",
 
   isBridgeConnected: false,
   isWsConnected: false,
@@ -19,7 +19,7 @@ export const useConnectionStore = create((set) => ({
   // Action Reset
   resetConnection: () =>
     set({
-      ipBridge: "192.168.1.22:5152",
+      ipBridge: "192.168.1.15:5152",
       wsRouter: "ws://192.168.1.24:9696/ws",
       isBridgeConnected: false,
       isWsConnected: false,

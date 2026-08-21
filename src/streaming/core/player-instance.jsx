@@ -84,9 +84,11 @@ const ShakaPlayerComponent = ({ src, abrAlgo }) => {
             qoeMonitor.recordSwitch(event.newTrack.bandwidth);
           }
         });
-
+        player.addEventListener("started", () => {
+          qoeMonitor.hasStartedPlayback = true;
+        });
         player.addEventListener("buffering", (event) => {
-          // if (!qoeMonitor.hasStartedPlayback) return;
+          if (!qoeMonitor.hasStartedPlayback) return;
 
           if (event.buffering) {
             qoeMonitor.recordStallStart();

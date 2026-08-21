@@ -295,6 +295,7 @@ export default class NdnAiAbrManagerv4 {
         retx: 0,
         lifetime: NDN_MEMO_LIFETIME_MS,
       });
+      console.log(data);
       const actionIndex = parseInt(fromUtf8(data.content));
 
       if (!isNaN(actionIndex)) {
